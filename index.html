@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutterwave</title>
+    <style>
+        .logo {
+            margin-top: -35px;
+            margin-left: 50px;
+            width: 160px;
+            float: left;
+            margin-right: 150px;
+        }
+        a {
+            text-decoration: none;
+            padding-right: 30px;
+        }
+        a:hover {
+            color: aqua;
+        }
+        .co {
+            list-style: none;
+            display: inline;
+        }
+        .mo {
+            float: left;
+            margin-top: 38px;
+            text-align: center;
+        }
+        .flutter {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;  
+        }
+        * {
+            margin:0;
+            padding:0;
+        }
+        .sign {
+            margin-top: 30px;
+            margin-left:65px;
+            width: 125px;
+            height: 40px;
+            border: 0;
+            border-radius: 10px;
+        }  
+        .sign:hover {
+            color: white;
+            background-color: rgb(4, 4, 41);
+        }  
+        .pay {
+            color: #262c55;
+            margin-left: -25px;
+            font-size: 15px;
+        }
+        h1 {
+            clear: both;
+            margin-left: 14%;
+            font-size:70px ;
+        }
+        .every{
+            color: orange;
+        }
+        .end {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 87px;
+        }
+        .sell{
+            margin-left: 14%;
+            color: rgb(27, 27, 27);
+            font-size: 20px;
+        }
+        .create {
+            margin-left: 14%;
+            font-size: 15px;
+            background-color: #1b1e33;
+            margin-top: 30px;
+            width: 180px;
+            height: 55px;
+            border-radius: 10px;
+            color: white;
+            border: none;
+        }
+        .contact {
+            width: 135px;
+            height: 55px;
+            border: 0;
+            margin-left: 25px;
+            border-radius: 10px;
+        }
+        .crocs {
+            width: 700px;
+            height: 800px;
+            margin-top: 50px;
+            object-fit: fill;
+            float: left;
+        }
+        .famasi {
+            height: 750px;
+            width: 550px;
+            margin-left:98px;
+            object-fit: cover;
+            margin-top: -100px;
+        }
+        .lady {
+            float: right;
+            margin-right: 200px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(65, 65, 65);
+            margin-top: 55px;
+            line-height: 0.8cm;
+        }
+        .we {
+            clear: both;
+            padding-top: 100px;
+            font-size: 20px;
+            margin-left: 14%;
+        }
+        .img {
+        margin-left: 50px;
+        margin-top: 30px;
+        }
+        .image {
+            margin-left: 10%;
+        }
+        .set {
+            color: rgb(250, 119, 43);
+        }
+        .fully {
+            margin-top: 250px;
+            font-size: 90px;
+            font-weight: 70px;
+        }
+        .check {
+            margin-left: 14%;
+            margin-top: 80px;
+            font-size: 20px;
+            line-height: 0.9cm;
+            color: rgb(53, 51, 51);
+            font-family:  'Arial Narrow Bold', sans-serif;
+        
+        }
+        .out {
+            font-size: 25px;
+            color: black;
+        }
+        .get {
+            width: 110px;
+            height: 42px;
+            border-radius: 10px;
+            margin-left: 14%;
+            margin-top: 25px;
+            color: white;
+            background-color: #0d143d;
+            border: none;
+            float: left;
+
+        }
+        .felix {
+            width:300px ;
+            margin-left: 300px;
+            margin-top: -350px;
+        }
+        .accept {
+            float: right;
+            margin-top: -550px;
+            margin-right: 90px;
+            font-size: 20px;
+            color: rgb(53, 51, 51);
+            line-height: 0.7cm;
+        }
+        .learn {
+            float: right;
+            margin-top: -400px;
+            margin-right: 240px;
+            color: red;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .transfer {
+            float: right;
+            margin-top: -270px;
+            margin-right: 120px;
+            color: rgb(53, 51, 51);
+            font-size: 20px;
+            line-height: 0.6cm;
+            font-family:  'Arial Narrow Bold';
+        }
+        .more {
+            float: right;
+            margin-right: 245px;
+            margin-top: -130px;
+            color: red;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .build {
+            background-color: #f8fafd;
+            margin-top: 70px;
+            padding-bottom: 1500px;
+        }
+        .success {
+            padding-top: 120px;
+            font-family: 'Times New Roman', Times, serif ;
+            font-size: 80px;
+            margin-left: 14%;
+        }
+        .tools {
+            color: rgb(5, 70, 5);
+        }
+        .store {
+            margin-top: 170px;
+            margin-left: 290px;
+           color:  rgb(53, 51, 51);
+           font-family:  'Arial Narrow Bold';
+           font-size: 20px;
+           line-height: 0.8cm;
+        }
+        .star {
+            width: 120px;
+            height: 45px;
+            border-radius: 10px;
+            margin-left: 22%;
+            margin-top: 30px;
+            color: white;
+            background-color: #0b1133;
+            border: none;
+            float: left;
+        }
+        .beauty {
+            width: 600px;
+            float: right;
+            height: 700px;
+            object-fit: cover;
+            margin-top: -200px;
+            margin-right: 80px;
+        }
+        .art {
+            width: 620px;
+            margin-top: -80px;
+            margin-left: 125px;
+            object-fit: cover;
+            float: left;
+        }
+        .generate {
+            float: right;
+            margin-top:100px;
+            margin-right: 220px;
+            color:  rgb(53, 51, 51);
+           font-family:  'Arial Narrow Bold';
+           font-size: 23px;
+           line-height: 0.8cm;
+        }
+        .link {
+            float: right;
+            margin-top: 40px;
+            margin-right:400px;
+            color: red;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .links {
+            float: right;
+            margin-top:60px;
+            margin-right: 180px;
+            color:  rgb(53, 51, 51);
+           font-family:  'Arial Narrow Bold';
+           font-size: 23px;
+           line-height: 0.8cm;
+        }
+        .ore {
+            float: right;
+            margin-top: 20px;
+            margin-right:400px;
+            color: red;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .platform {
+            margin-top: 1090px;
+            margin-left: 155px;
+            font-size: 20px;
+        }
+        .solo {
+            color: rgb(11, 179, 11);
+        }
+        .let {
+            margin-top: 120px;
+            font-size: 83px;
+            margin-left: 99px;
+        }
+        .okay {
+            width: 145px;
+            height: 70px;
+            border-radius: 10px;
+            margin-left: 10%;
+            margin-top: 40px;
+            border: 0;
+            background-color: #0b1133;
+            color: white;
+            font-size: 15px;
+        }
+        .physical {
+            background-color:  #1d1d1d;
+            padding-bottom: 1000px;
+            margin-top: -1400px;
+            color: white;
+        }
+        .virtual {
+            padding-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 75px;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+        }
+        .card {
+            color: #6672c7;
+        }
+        .easily {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .cards {
+            margin-left: 42%;
+            margin-top: 40px;
+            width: 200px;
+            height: 70px;
+            border: 0;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        .prepaid {
+            margin-top: 50px;
+            float: right;
+            padding-right:450px;
+            border: 0;
+        }
+        .well {
+            margin-left: 14%;
+            font-size: 80px;
+            padding-top: 100px;  
+        }
+        .easy {
+            background-color: #f8fafd;
+            margin-top:-550px;
+            padding-bottom: 120px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+        }
+        .api {
+            color: #eb7da7;
+        }
+        .core {
+            margin-left: 14%;
+            font-size: 24px;
+            margin-top: 50px;
+        }
+        .no {
+            list-style: disc;
+            margin-left: 14%;
+            margin-top: 20px;
+            line-height: 1.3cm;
+            font-size: 20px;
+        }
+        .read {
+            width: 180px;
+            height: 75px;
+            margin-left: 14%;
+            border: 0;
+            border-radius: 10px;
+            margin-top: 27px;
+            background-color: #0b1133;
+            color: white;
+            font-size: 17px;
+        }
+        .global {
+            padding-top: 00px;
+            padding-bottom: 100px;
+            margin-top: 100px;
+            margin-left: 14%;
+            font-size: 80px;
+            float: left;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .reach {
+            color: #6672c7;
+            
+        }
+        .currency {
+            border-left: 2px solid black;
+            margin-top:10px ;
+            font-size: 20px;
+            padding-left: 10px;
+            color: #00abab;
+            margin-left: 25px;
+        }
+        .thirty {
+            font-size: 19px;
+            margin-left: 30px;
+            margin-top: 10px;
+            color: #1d1d1d;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            margin-top: 8px;
+        }
+        td {
+            font-size: 18px;
+            padding: 5px 55px 5px 35px;
+            color: #1d1d1d;
+        }
+        .globe {
+            float: left;
+            margin-top: 200px;
+            width: 500px;
+            margin-right: -65px;
+        }
+        .buy {
+            clear: both;
+            background-color: black;
+            width: 70%;
+            margin-left: 15%;
+            text-align: center;
+            padding: 50px;
+            border-radius: 20px;
+        }
+        .ate{
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+        .nn {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: 20px;
+
+        }
+        .but {
+            background-color: white;
+            height: 65px;
+            width: 140px;
+            border-radius: 10px;
+            margin-top: 10px;
+            padding-top:-100px;
+            margin-right:300px;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 40px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body> 
+   <div class="flutter">
+         <img class="logo" src="C:\Users\user\coding\download.png" alt="logo">
+    <div>
+        <ul class="mo">
+            <li class="co"><a class="pay" href="#">Payments</a></li>
+            <li class="co"><a href="#">Commerce</a></li>
+            <li class="co"><a href="#">Issuing</a></li>
+            <li class="co"><a href="#">Capital</a></li>
+            <li class="co"><a href="#">Grow</a></li>
+            <li class="co"><a href="#">FaaS</a></li>
+        </ul>
+    </div>
+    <button class="sign">Sign In</button>
+   </div>
+   <div>
+    <h1 class="end"><span class="every">Endless</span> <br><span class="every">Possibilities</span> for <br> every business</h1>
+    <br>
+    <br>
+
+   <p class="sell"> Sell online, process payments, build financial products, or use<br>
+    business tools designed to grow your business.</p>
+   </div>
+   <br>
+   <button class="create">Create a free account</button>
+   <button class="contact">Contact sales</button>
+   <div>
+    <img class="crocs" src="images\Foot city.jpg" alt="crocs">
+   </div>
+
+   <div >
+    <img class="famasi" src="images\famasi.jpg" alt="Famasi">
+    <p class="lady"> It's not the size of the company, it's the <br> size of the ambition. Ambitious businesses <br> of all sizes count on Flutterwave to grow <br> their business everywhere.</p>
+   </div>
+   <div>
+    <p class="we">We are trusted by <strong>1 Million+ </strong> businesses</p>
+   </div>
+   <div>
+    <img class="image" src="images\uber.svg" alt="uber">
+    <img class="img" src="images\mtn.svg" alt="mtn">
+    <img class="img" src="images\chipper.svg" alt="chipper">
+    <img class="img" src="images\piggyvest.svg" alt="piggy Vest">
+    <img class="img" src="images\wise.svg" alt="wise">
+    <img class="img" src="images\microsoft.svg" alt="microsoft">
+   </div>
+
+   <div>
+    <h1 class="fully">
+        A fully unified <br> set of <span class="set">payments</span> <br> <span class="set">tools</span>
+    </h1>
+   </div>
+
+   <div>
+    <p class="check">
+        <b class="out">Checkout</b> <br><br>
+    Checkout features our smart <br>
+    payment ordering system, incredible <br>
+    speed, and beautiful simplicity. It's <br>
+    designed to grow your revenue and <br>
+    provide the best payment <br>
+    experience to your customers.
+    </p>
+    <button class="get">Get Started</button>
+   </div>
+
+   <div> 
+    <img class="felix" src="images\checkout.png" alt="Checkout">
+   </div>
+
+   <div>
+    <p class="accept">
+        <b class="out">Accept payments</b> <br><br>
+        Easily receive money from anyone, <br>
+        anywhere in the world.
+    </p>
+    <a class="learn" href="#">Learn more ></a>
+
+    <p class="transfer">
+        <b class="out">Transfers (Payout)</b> <br><br>
+        Make single or bulk transfers to <br>
+        bank accounts from your <br>
+        Flutterwave dashboard.
+    </p>
+    <a class="more" href="#">Learn more ></a>
+   </div>
+
+   <div class="build">
+    <h1 class="success">
+        Build a successful online <br>
+        business with our <br>
+        <span class="tools">Commerce tools.</span>
+    </h1>
+    <div>
+        <p class="store">
+            <b class="out">Store</b> <br>
+            Create a free ecommerce website and <br>
+            start selling worldwide with just a few <br>
+            clicks.
+        </p>
+        <button class="star">Start selling</button>
+       </div>
+       <div>
+        <img class="beauty" src="images\beauty.jpg" alt="beauty">
+       </div>
+       <div>
+        <img class="art" src="images\creator.jpg" alt="art">
+       </div>
+
+       <div>
+        <p class="generate">
+            <b class="out">Invoices</b> <br><br>
+            Generate professional invoices for <br>
+            your customers and get paid from <br>
+            anywhere.
+        </p>
+        <a class="link" href="#">Get started ></a>
+       </div>
+
+       <div>
+        <p class="links">
+            <b class="out">Payment links</b> <br><br>
+            Receive one-off or recurring payments <br>
+            from anyone, anywhere, via your <br>
+            unique payment link.
+        </p>
+        <a class="ore" href="#">Learn more ></a>
+       </div>
+       <p class="platform">A platform for you, whether you’re a big business or a <span class="solo">solo artist.</span></p>
+
+       <div>
+        <p class="let">
+            Let’s play to our strengths,<br>
+            shall we? You focus on bringing <br>
+            your amazing ideas to life and <br>
+            we focus on providing all the <br>
+            <span class="solo">commerce tools</span> you need.
+        </p>
+        <button class="okay">Okay, let’s go</button>
+       </div>
+   </div>
+
+   <div class="physical">
+    <h1 class="virtual">Create physical and <br> virtual <span class="card">cards</span></h1>
+    <p class="easily">Issue physical and virtual cards that work globally. Create,<br> launch, and manage your cards easily from anywhere.</p>
+    <button class="cards"> Get started with cards </button>
+    <img class="prepaid" src="images\cards" alt="cards">
+   </div>
+
+   <div class="easy">
+    <p class="well">Well documented and <br> easy-to-use <span class="api">APIs</span> for <br><span class="api"> developers</span></p>
+    <p class="core">
+        We have done the core payments integrations and <br>
+        abstractions, so your team can easily integrate with our APIs <br>
+        and access multiple payment functionalities.
+    </p>
+    <p>
+        <ul class="no">
+            <li>Quick trasfers</li>
+            <li>Initiate one-time and recurring payments</li>
+            <li>Payment verification</li>
+            <li>Instant virtual cards creation</li>
+            <li>Customer verification</li>
+        </ul>
+    </p>
+    <button class="read">Read the API docs</button>
+   </div>
+
+   <div class="global">
+    <p>Our <span class="reach">global</span> reach</p>
+
+    <div class="cla">
+        <p class="currency">30+ Currencies</p>
+        <p class="thirty">
+            We accept payments in more than thirty currencies.
+        </p>
+        <br>
+        <p class="currency">20M+ API calls</p>
+        <p class="thirty">API calls per day,peaking at 231 requests per seconds  </p>
+        <br>
+        <p class="currency"> 500k+ payments daily </p>
+        <p class="thirty">Average number of payments processed daily</p>
+        <br>
+       </div>
+       <p class="currency">15+ payment options</p>
+       <table>
+        <tr>
+            <td>Debit & Credit Cards</td>
+            <td>Bank Accounts</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mobile Money</td>
+            <td>POS</td>
+        </tr>
+        <tr>
+            <td>M-Pesa</td>
+            <td>VISA QR</td>
+        </tr>
+        <tr>
+
+            <td>Bank Transfer</td>
+            <td>USSD</td>
+        </tr>
+       </table>
+   </div>
+
+   <div>
+    <img class="globe" src="images\globe_1-removebg-preview.png" alt="globe">
+   </div>
+
+   <div class="buy">
+    <h2>Ready to get started ? </h2>
+    <p class="ate">Create an account and instantly start accepting payments, selling your <br> beautiful products online and building financial tools</p>
+    <button class="but">Click me</button>
+   </div>
+
+   
+
+   
+   
+   
+
+   
+   
+
+  
+
+
+</body>
+</html>
